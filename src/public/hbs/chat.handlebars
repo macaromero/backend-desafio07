@@ -1,0 +1,9 @@
+<div class="col-8 text-start p-4 pb-3 bg-light">
+    {{#each msj}}
+    <div class="w-100 pb-2">
+        <p class="d-inline text-primary fw-bold">{{this.mail}}</p>
+        <p class="d-inline" style="color: rgb(80, 39, 39);">[{{this.date}}]:</p>
+        <p class="text-break d-inline ms-1 text-success fst-italic">{{this.message}}</p>
+    </div>
+    {{/each}}
+</div>
